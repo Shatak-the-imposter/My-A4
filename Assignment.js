@@ -60,3 +60,24 @@
 
 
 
+function monthlySavings(arr, livingCost) {
+    if (Array.isArray(arr) && typeof livingCost == 'number') {
+        let totalEarn = 0;
+        for (let number of arr) {
+            if (number >= 3000) {
+                number = number - (number * 0.2);
+                totalEarn = totalEarn + number;
+                savings = totalEarn - livingCost;
+            }
+            else {
+                totalEarn = totalEarn + number;
+                savings = totalEarn - livingCost;
+            }
+        }
+        return savings;
+    }
+}
+
+let test = monthlySavings([2000, 1000, 1000], 1000)
+console.log(test)
+
