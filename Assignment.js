@@ -1,15 +1,13 @@
 
-// // function calculateMoney(ticketQuantity) {
-// //     if (ticketQuantity >= 0) {
-// //         profit = (ticketQuantity*120)-(500+(8*50));
-// //         return profit;
-// //     }
-// //     else{
-// //         console.log(`The input ${ticketQuantity} is invalid number`)
-// //     }
-// // }
-
-
+// function calculateMoney(ticketSale) {
+//     if (ticketSale >= 0) {
+//         profit = (ticketSale*120)-(500+(8*50));
+//         return profit;
+//     }
+//     else{
+//         return(`The input ${ticketSale} is invalid number`)
+//     }
+// }
 
 
 // function checkName(name) {
@@ -27,4 +25,25 @@
 //         return ('Invalid');
 //     }
 // }
+
+
+
+
+// function deleteInvalids(array) {
+//     let newArray = [];
+//     if (Array.isArray(array)) {
+//         for (const number of array) {
+//             if (number /1 === number) {
+//                 newArray.push(number);
+//             }
+//         }
+//         return newArray;
+//     }
+//     else {
+//         return ('Invaild Array')
+//     }
+// }
+
+
+
 
