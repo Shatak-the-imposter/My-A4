@@ -46,4 +46,17 @@
 
 
 
+// function password(obj) {
+//     birthYearInString = obj.birthYear.toString()
+//     birthYearSize = birthYearInString.length
+//     if (obj.hasOwnProperty('name') && obj.hasOwnProperty('birthYear') && obj.hasOwnProperty('siteName')&& birthYearSize>=4) {
+//         let pass = `${obj.siteName.replace(obj.siteName[0], obj.siteName[0].toUpperCase())}#${obj.name}@${obj.birthYear}`;
+//         return (pass)
+//     }
+//     else {
+//         return ('invalid')
+//     }
+// }
+
+
 

@@ -1,6 +1,2 @@
-function func() {
-    let str = 'GeeksforGeeks';
-    let index = str.lastIndexOf('for');
-    console.log(index);
-}
-func();
+let str = 'google';
+console.log(firstChar.replace(firstChar[0], sfirstChar[0].toUpperCase()))
